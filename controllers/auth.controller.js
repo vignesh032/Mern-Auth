@@ -81,3 +81,4 @@ export const logout = async (req, res) => {
     return res.json({ success: true, message: error.message });
   }
 };
+
